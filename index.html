@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أوقات الأذان </title>
+    <link rel="shortcut icon" href="ds.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titreGrand"> مواقيت الصلاة في الجزائر</h1>
+        <div class="ville">
+            <h2>إختر المدينة</h2>
+            <select id="wilaya">
+            </select>
+        </div>
+         <h1 class="heureActuelle"> التوقيت:<span id="heure">18:50:30</span></h1>
+         <div class="NextPray">
+          <p>الصلاة المقبلة: <span id="nextp"></span></p>
+          <p> الوقت المتبقي لها:  <span id="tempRest">10</span></p>
+
+
+         </div>
+        <div class="tawkite">
+            <div class="date">مواقيت الصلاة ليوم: <span id="hiraji"></span></div>
+            <div class="awkate">
+              <div class="wakte">
+                <div class="nom">الصبح</div>
+                <div class="temp"></div>
+              </div>  
+              <div class="wakte">
+                <div class="nom">الظهر</div>
+                <div class="temp"></div>
+              </div>
+              <div class="wakte">
+                <div class="nom">العصر</div>
+                <div class="temp"></div>
+              </div>
+              <div class="wakte">
+                <div class="nom">المغرب</div>
+                <div class="temp"></div>
+              </div>
+              <div class="wakte">
+                <div class="nom">العشاء</div>
+                <div class="temp"></div>
+              </div>
+            </div>
+          <div class="elchourouk">
+            <div class="wakte">
+              <div class="nom">الشروق</div>
+              <div class="temp"></div>
+            </div>  
+            <div class="wakte">
+              <div class="nom">الغروب</div>
+              <div class="temp"></div>
+            </div>
+
+          </div>            
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="wilaya.js"></script>
+    <script src="temp.js"></script>
+</body>
+</html>
